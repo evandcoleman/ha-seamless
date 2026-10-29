@@ -1,0 +1,12 @@
+{
+  "credential": {"ud_id": "00000000-0000-4000-8000-000000000001"},
+  "claims": {},
+  "session_handle": {
+    "access_token": "test-access-2",
+    "refresh_token": "test-refresh-2",
+    "token_remaining_secs": 3600,
+    "refresh_token_remaining_secs": 2592000
+  },
+  "expire_in": 60,
+  "refresh_expire_in": 43200
+}

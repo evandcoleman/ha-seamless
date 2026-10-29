@@ -1,0 +1,75 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect Seamless",
+        "description": "Sign in at seamless.com in a browser and copy the session's refresh token, client ID and device ID from the /auth/login response. Then close or clear that browser session so it doesn't rotate the same token. No password is needed or stored.",
+        "data": {
+          "refresh_token": "Refresh token",
+          "client_id": "Client ID",
+          "device_id": "Device ID"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Seamless session expired",
+        "description": "Seamless rejected the saved session. Sign in at seamless.com again, copy the new refresh token (the client ID and device ID stay the same), then clear that browser session.",
+        "data": {
+          "refresh_token": "Refresh token"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid authentication",
+      "cannot_connect": "Failed to connect",
+      "unknown": "Unexpected error"
+    },
+    "abort": {
+      "already_configured": "Account is already configured",
+      "reauth_successful": "Re-authentication was successful",
+      "unique_id_mismatch": "That is a different Seamless account. Sign in with the account this entry was set up with."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "order_status": {
+        "name": "Order status"
+      },
+      "eta": {
+        "name": "ETA"
+      },
+      "eta_window_start": {
+        "name": "ETA window start"
+      },
+      "eta_window_end": {
+        "name": "ETA window end"
+      },
+      "eta_state": {
+        "name": "ETA state"
+      },
+      "restaurant": {
+        "name": "Restaurant"
+      },
+      "courier": {
+        "name": "Courier"
+      },
+      "dropoff_pin": {
+        "name": "Dropoff PIN"
+      }
+    },
+    "binary_sensor": {
+      "order_active": {
+        "name": "Order active"
+      }
+    },
+    "device_tracker": {
+      "courier": {
+        "name": "Courier"
+      }
+    },
+    "image": {
+      "courier_photo": {
+        "name": "Courier photo"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{ "pager": {"current_page": 1, "total_pages": 1}, "results": [
+    {
+      "id": "00000000-0000-4000-8000-0000000000a1",
+      "order_number": "TEST-0001",
+      "order_status": "OUT_FOR_DELIVERY",
+      "state": "COMPLETED",
+      "time_placed": "2026-01-15T17:30:00.000Z",
+      "when_for": "2026-01-15T17:30:00.000Z",
+      "scheduled": false,
+      "restaurants": [{"name": "Test Kitchen"}],
+      "order_tracking": {"enabled": true}
+    }
+,
+    {
+      "id": "00000000-0000-4000-8000-0000000000a2",
+      "order_number": "TEST-0002",
+      "order_status": "CONFIRMED",
+      "state": "COMPLETED",
+      "time_placed": "2026-01-14T09:00:00.000Z",
+      "when_for": "2026-01-14T09:00:00.000Z",
+      "scheduled": false,
+      "restaurants": [{"name": "Test Kitchen"}],
+      "order_tracking": {"enabled": false}
+    }
+]}

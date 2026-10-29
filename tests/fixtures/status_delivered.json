@@ -1,0 +1,20 @@
+{
+  "order_id": "00000000-0000-4000-8000-0000000000a3",
+  "order_tracking": {"state": "DELIVERED", "type": "DELIVERY"},
+  "current_eta_state": "ON_TIME",
+  "display_estimate_range": {
+    "single_estimate_time": "2026-01-15T18:20:00.000Z",
+    "start_time": "2026-01-15T18:10:00.000Z",
+    "end_time": "2026-01-15T18:30:00.000Z",
+    "single_estimate_minutes": 20,
+    "eta_notation": "20 min"
+  },
+  "dropoff_pin_code": "0000",
+  "delivery_tracking_info": {
+    "courier": {
+      "name": "Test Courier",
+      "vehicle_type": "car",
+      "photo_url": "https://example.com/courier-1.jpg"
+    }
+  }
+}
